@@ -29,7 +29,7 @@
     "nextjs-toploader": "^3.8.16",
     "postcss-custom-properties": "^14.0.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.26.10",

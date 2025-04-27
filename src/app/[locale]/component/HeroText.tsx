@@ -6,7 +6,7 @@ import React from 'react';
 import { useTranslations } from 'next-intl';
 import classes from './HeroText.module.css';
 import { Dots } from '@/src/app/[locale]/component/Dots';
-import { useRouter } from "nextjs-toploader/app";
+import { useRouter } from "next/navigation";
 
 export function HeroText() {
     const t = useTranslations('Index');

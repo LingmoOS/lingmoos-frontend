@@ -32,7 +32,7 @@
     "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.26.10",
+    "@babel/core": "^7.27.1",
     "@next/eslint-plugin-next": "^15.3.1",
     "@storybook/addon-essentials": "^8.6.12",
     "@storybook/addon-styling-webpack": "^1.0.0",

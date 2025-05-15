@@ -67,7 +67,7 @@
     "storybook-dark-mode": "^4.0.1",
     "stylelint": "^16.19.1",
     "stylelint-config-standard-scss": "^15.0.0",
-    "ts-jest": "^29.3.2",
+    "ts-jest": "^29.3.3",
     "typescript": "5.8.3"
   }
 }

@@ -27,7 +27,7 @@
     "next": "15.3.2",
     "next-intl": "^4.1.0",
     "nextjs-toploader": "^3.8.16",
-    "postcss-custom-properties": "^14.0.4",
+    "postcss-custom-properties": "^14.0.5",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },

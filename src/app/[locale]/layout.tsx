@@ -9,8 +9,20 @@ import { theme } from '@/theme';
 import RootLayoutInner from '@/src/app/[locale]/component/RootLayoutInner';
 import NextTopLoader from 'nextjs-toploader';
 
-export default async function RootLayout({ children, params: { locale } }:
-    { children: any, params: { locale: string } }) {
+export default async function RootLayout(
+    props:
+        { children: any, params: Promise<{ locale: string }> }
+) {
+    const params = await props.params;
+
+    const {
+        locale
+    } = params;
+
+    const {
+        children
+    } = props;
+
     const messages = await getMessages();
 
     return (

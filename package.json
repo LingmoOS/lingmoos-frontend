@@ -70,7 +70,7 @@
     "stylelint": "^16.19.1",
     "stylelint-config-standard-scss": "^16.0.0",
     "ts-jest": "^29.3.4",
-    "typescript": "5.9.2"
+    "typescript": "5.9.3"
   },
   "pnpm": {
     "overrides": {
